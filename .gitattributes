@@ -1,0 +1,15 @@
+# Auto-detect text files and normalize line endings in the repository
+* text=auto
+
+# Force LF in the repository for source files and JSON
+*.ts text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+
+# Keep common binary formats unchanged
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Do not treat dist output as text (leave as-is)
+dist/* -text
