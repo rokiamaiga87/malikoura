@@ -1,2 +1,2 @@
-let msg: string="salut la classe";
+const msg: string="salut la classe";
 console.log (msg);

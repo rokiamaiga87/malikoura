@@ -1,17 +1,19 @@
-let age: Number =15;
-let user :{name  : string, age: number} = {
-name : "rokia ",
-age : 15,
+const age: number = 15;
+const user: { name: string; age: number } = {
+  name: "rokia",
+  age: 15,
 };
-let pays : [string , string , number]=["mali ","Bamako", 223 ] ;
+const pays: [string, string, number] = ["mali", "Bamako", 223];
+
 interface user {
-    name : string,
-    age : number,
+  name: string;
+  age: number;
 }
-let u1 : user = {name : "DIARRA", age : 17};
+
+const u1: user = { name: "DIARRA", age: 17 };
 
 enum Sexe {
-    MASCULIN,
-    FEMININ,
+  MASCULIN,   FEMININ,
 }
-let s1 : Sexe = Sexe.MASCULIN;
+const s1: Sexe = Sexe.MASCULIN;
+console.log(age, pays, u1, s1);
